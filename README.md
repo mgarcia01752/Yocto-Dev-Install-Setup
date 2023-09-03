@@ -9,9 +9,9 @@ Base Installation for a Yocto Development
 sudo apt update
 
 #OS Packages
-sudo apt net-tools -y
+sudo apt install net-tools -y
 sudo apt install -y openssh-server
-sudo apt  install htop -y
+sudo apt install htop -y
 
 #Applications
 sudo apt install -y git
