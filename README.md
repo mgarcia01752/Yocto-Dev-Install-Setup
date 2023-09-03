@@ -13,6 +13,10 @@ sudo apt install net-tools -y
 sudo apt install -y openssh-server
 sudo apt install htop -y
 
+#Build Essential
+sudo apt-get install build-essential autoconf automake libtool
+
+
 #Applications
 sudo apt install -y git
 sudo apt install -y python3
@@ -26,7 +30,8 @@ sudo apt-get install -y fuse
 
 ## Applications
 
-### Visual Studio Code
+### Visual Studio CodeICECC_SCHEDULER="192.168.0.24"
+
 
 ```shell
 wget -O vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
@@ -89,6 +94,13 @@ sudo systemctl start icecc-scheduler
 echo "Icecream is installed and running."
 
 ```
+
+# ICECREAM rom Source
+
+```shell
+git clone https://github.com/icecc/icecc
+```
+
 
 ## Download Etcher
 
