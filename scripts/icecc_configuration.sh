@@ -40,8 +40,8 @@ fi
 # Install ICECC Scheduler (if applicable)
 if [ "$ROLE" == "scheduler" ]; then
     echo "Installing ICECC Scheduler..."
-    sudo apt-get update
-    sudo apt-get install -y icecc-scheduler
+
+    # ./icecc_build.sh
 
     # Configure ICECC Scheduler
     echo "Configuring ICECC Scheduler..."

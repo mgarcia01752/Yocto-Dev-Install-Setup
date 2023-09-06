@@ -9,13 +9,13 @@ Base Installation for a Yocto Development
 sudo apt update
 
 #OS Packages
-sudo apt install net-tools -y
+sudo apt install -y net-tools
 sudo apt install -y openssh-server
-sudo apt install htop -y
+sudo apt install -y htop
+sudo apt install -y tree 
 
 #Build Essential
 sudo apt-get install build-essential autoconf automake libtool
-
 
 #Applications
 sudo apt install -y git
@@ -24,6 +24,10 @@ sudo apt install -y virtualbox virtualbox-ext-pack
 sudo apt-get install -y libqt5widgets5
 sudo apt-get install -y icecc
 sudo apt-get install -y fuse
+
+# Emulators
+sudo apt install qemu-system
+
 
 
 ```
@@ -43,6 +47,7 @@ sudo dpkg -i vscode.deb
 ### Git
 
 ```shell
+git config --global init.defaultBranch main
 git config --global user.email "mgarcia01752@outlook.com"
 git config --global user.name "Maurice Garcia"
 ```
@@ -96,6 +101,8 @@ echo "Icecream is installed and running."
 ```
 
 # ICECREAM rom Source
+
+[IceCream Video](https://www.youtube.com/watch?v=VpK27pI64jQ)
 
 ```shell
 git clone https://github.com/icecc/icecc

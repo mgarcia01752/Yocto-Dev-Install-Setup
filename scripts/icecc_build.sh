@@ -16,6 +16,7 @@ git checkout 1.4-branch
 
 # Configure, build, and install ICECC
 echo "Configuring and building ICECC..."
+autoupdate
 ./autogen.sh
 ./configure
 make
