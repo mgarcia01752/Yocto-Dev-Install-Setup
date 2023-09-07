@@ -10,6 +10,7 @@ sudo apt update
 
 #OS Packages
 sudo apt install -y net-tools
+sudo apt install -y traceroute
 sudo apt install -y openssh-server
 sudo apt install -y htop
 sudo apt install -y tree 
